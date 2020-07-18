@@ -12,7 +12,7 @@ body {
   text-align: center;
 }
 
-.wrapper {
+/* .wrapper {
   align-items: center;
   display: flex;
   height: 90%;
@@ -32,7 +32,7 @@ body {
   text-align: center; */
 }
 
-.flipbook-viewport .container {
+/* .flipbook-viewport .container {
   position: absolute;
   top: 0;
   left: 0;
@@ -44,21 +44,21 @@ body {
   text-align: center; */
 }
 
-.flipbook-viewport .flipbook {
+/* .flipbook-viewport .flipbook {
   width: 100%;
   height: 100%;;
   /* width: 704px;
   height: 528px; */
-}
+} */
 
 /* for mobile phones */
 /* @media only screen and (max-width: 768px){
   [class*="flipbook-viewport"]{
     width:
   }
-} */
+} */ */
 
-.flipbook-viewport .page {
+/* .flipbook-viewport .page {
   width: 100%;
   height: 100%;
   background-color: white;
@@ -72,9 +72,9 @@ body {
   -ms-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
+} */
 
-.flipbook-viewport .page img {
+/* .flipbook-viewport .page img {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -95,7 +95,58 @@ body {
   -o-box-shadow: 0 0 20px #ccc;
   -ms-box-shadow: 0 0 20px #ccc;
   box-shadow: 0 0 20px #ccc;
+} */ */
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  height: 90%;
+  justify-content: center;
+  margin: 5%;
+  width: 90%;
 }
+
+.aspect {
+  padding-bottom: 70%;
+  position: relative;
+  width: 100%;
+}
+
+.aspect-inner {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.flipbook {
+  height: 100%;
+  transition: margin-left 0.25s ease-out;
+  width: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.flipbook .page {
+  height: 100%;
+  width: 100%;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -ms-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.flipbook .page img {
+  max-width: 100%;
+  height: 100%;
+}
+
 
 .title {
   width: 25%;
@@ -142,9 +193,6 @@ body {
     color: rgb(70, 59, 54);
 }
 
-.download {
-
-}
 
 .footer {
   text-align: center;

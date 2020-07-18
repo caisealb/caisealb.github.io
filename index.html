@@ -18,9 +18,9 @@
   <div class = "subtitle">A Social Designer's Field Guide</div>
 </div>
 <div class="wrapper">
-  <div class="flipbook-viewport">
-  <div class="container">
-    <div class="flipbook", id="flipPages">
+  <div class="aspect">
+  <div class="aspect-inner">
+    <div class="flipbook", id="flipbook">
     </div>
   </div>
 </div>
@@ -36,7 +36,7 @@
  var len = imgs.length;
 
  for (var i = 0; i < len; i++) {
-  var container = document.getElementById('flipPages');
+  var container = document.getElementById('flipbook');
  var newPage = document.createElement('div'); newPage.style.backgroundImage="url(static/imgs/"+imgs[i]+".jpg"; newPage.setAttribute("class", "page");
    container.appendChild(newPage);
    }
