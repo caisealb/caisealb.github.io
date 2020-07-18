@@ -37,8 +37,8 @@ body {
 .flipbook-viewport .flipbook {
   max-width: 1600px;
   max-height: 1200px;
-  width: 880px;
-  height: 660px;
+  width: 704px;
+  height: 528px;
 }
 
 .flipbook-viewport .page {
