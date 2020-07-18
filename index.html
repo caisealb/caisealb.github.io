@@ -17,11 +17,13 @@
   <div class = "title"><span>&nbsp;&nbsp;</span>Power Literacy<span>&nbsp;&nbsp;</span></div>
   <div class = "subtitle">A Social Designer's Field Guide</div>
 </div>
+<div class="wrapper">
   <div class="flipbook-viewport">
   <div class="container">
     <div class="flipbook", id="flipPages">
     </div>
   </div>
+</div>
 </div>
 <div class = "footer">© Maya Goodwill 2020</div>
 
@@ -59,6 +61,20 @@
 			break;
 		}
 	});
+</script>
+
+<!-- Resize  -->
+
+<script type="text/javascript">
+var flipbookEL = document.getElementById('flipPages');
+window.addEventListener('resize', function (e) {
+  flipbookEL.style.width = '';
+  flipbookEL.style.height = '';
+  $(flipbookEL).turn('size', flipbookEL.clientWidth, flipbookEL.clientHeight);
+});
+$(flipbookEL).turn({
+    autoCenter: true
+});
 </script>
 
 
