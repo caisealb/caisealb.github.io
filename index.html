@@ -2,9 +2,9 @@
 <html>
 <head>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="lib/turn.html4.js"></script>
+<script type="text/javascript" src="/lib/turn.html4.js"></script>
 
-<link rel="stylesheet" type="text/css" href="static/css/style.css">
+<link rel="stylesheet" type="text/css" href="/static/css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Alata&family=Montserrat&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
@@ -16,14 +16,12 @@
   <div class = "title"><span>&nbsp;&nbsp;</span>Power Literacy<span>&nbsp;&nbsp;</span></div>
   <div class = "subtitle">A Social Designer's Field Guide</div>
 </div>
-
-  <div class="aspect">
-  <div class="aspect-inner">
-    <div class="flipbook", id="flipbook">
+  <div class="flipbook-viewport">
+  <div class="container">
+    <div class="flipbook", id="flipPages">
     </div>
   </div>
 </div>
-
 <div class = "footer">© Maya Goodwill 2020</div>
 
 
@@ -35,8 +33,8 @@
  var len = imgs.length;
 
  for (var i = 0; i < len; i++) {
-  var container = document.getElementById('flipbook');
- var newPage = document.createElement('div'); newPage.style.backgroundImage="url(static/imgs/"+imgs[i]+".jpg"; newPage.setAttribute("class", "page");
+  var container = document.getElementById('flipPages');
+ var newPage = document.createElement('div'); newPage.style.backgroundImage="url(/static/imgs/"+imgs[i]+".jpg"; newPage.setAttribute("class", "page");
    container.appendChild(newPage);
    }
 </script>
@@ -61,20 +59,6 @@
 		}
 	});
 </script>
-
-<!-- Resize  -->
-
-<!-- <script type="text/javascript">
-var flipbookEL = document.getElementById('flipbook');
-window.addEventListener('resize', function (e) {
-  flipbookEL.style.width = '';
-  flipbookEL.style.height = '';
-  $(flipbookEL).turn('size', flipbookEL.clientWidth, flipbookEL.clientHeight);
-});
-$(flipbookEL).turn({
-    autoCenter: true
-});
-</script> -->
 
 
 <!-- Load app -->
