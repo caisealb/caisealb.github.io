@@ -39,6 +39,7 @@ body {
   max-height: 1200px;
   width: 880px;
   height: 660px;
+  text-align: center;
 }
 
 .flipbook-viewport .page {
