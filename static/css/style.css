@@ -140,7 +140,7 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-.aspect .page img {
+.flipbook .page img {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
