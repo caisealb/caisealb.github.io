@@ -13,7 +13,7 @@ body {
 }
 
 .aspect {
-  overflow: hidden;
+  overflow: auto;
   width: 90%;
   height: 90%;
   margin: auto;
