@@ -1,9 +1,13 @@
 
+html,
 body {
   height: 100%;
   width: 100%;
   min-height: 100%;
   min-width: 100%;
+}
+
+body {
   overflow: auto;
   /* background-color: #fcfcfc; */
   background-color: rgb(244, 243, 243);
@@ -24,7 +28,7 @@ body {
 }
 
 .flipbook-viewport .container {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   margin-top: 2.5%;
