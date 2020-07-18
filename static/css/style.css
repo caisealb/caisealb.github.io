@@ -23,6 +23,7 @@ body {
 }
 
 .aspect-inner {
+  overflow: auto;
   position: relative;
   top: 0;
   left: 0;
