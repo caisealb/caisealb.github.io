@@ -83,7 +83,7 @@ body {
 
 .titlewrapper {
   display: table;
-  background-color: hsl(5,63,73)
+  background-color: rgb(226,136,128);
   margin-top: 0;
   width: 100%;
   height: 15.25vh;
