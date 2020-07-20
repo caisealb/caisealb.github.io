@@ -110,7 +110,7 @@ body {
 
 .titlewrapper {
   width:100%;
-  min-height: 35vh;
+  height: 35vh;
 }
 .subtitle {
   text-align: center;
