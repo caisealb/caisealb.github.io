@@ -1,7 +1,6 @@
 
-@import url(//db.onlinewebfonts.com/c/c8002809ed49394a1aab4a4ceaff09a6?family=Neue+Haas+Grotesk);
-
-@font-face {font-family: "Neue Haas Grotesk"; src: url("//db.onlinewebfonts.com/t/c8002809ed49394a1aab4a4ceaff09a6.eot"); src: url("//db.onlinewebfonts.com/t/c8002809ed49394a1aab4a4ceaff09a6.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c8002809ed49394a1aab4a4ceaff09a6.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c8002809ed49394a1aab4a4ceaff09a6.woff") format("woff"), url("//db.onlinewebfonts.com/t/c8002809ed49394a1aab4a4ceaff09a6.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c8002809ed49394a1aab4a4ceaff09a6.svg#Neue Haas Grotesk") format("svg"); }
+@import url(//db.onlinewebfonts.com/c/0209bfe594ed24b75ee2aac06529e4f9?family=NHaasGroteskDSPro-75Bd);
+@font-face {font-family: "NHaasGroteskDSPro-75Bd"; src: url("//db.onlinewebfonts.com/t/0209bfe594ed24b75ee2aac06529e4f9.eot"); src: url("//db.onlinewebfonts.com/t/0209bfe594ed24b75ee2aac06529e4f9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0209bfe594ed24b75ee2aac06529e4f9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0209bfe594ed24b75ee2aac06529e4f9.woff") format("woff"), url("//db.onlinewebfonts.com/t/0209bfe594ed24b75ee2aac06529e4f9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0209bfe594ed24b75ee2aac06529e4f9.svg#NHaasGroteskDSPro-75Bd") format("svg"); }
 
 body {
   height: 100%;
