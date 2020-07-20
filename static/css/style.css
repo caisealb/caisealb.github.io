@@ -96,11 +96,11 @@ body {
   display: table-cell;
   vertical-align: middle;
   padding-left: 4vw;
-  font-family: Arial, sans-serif;
+  font-family: neue-haas-grotesk-display;
     font-weight: 600;
     font-style: normal;
     font-size: 30px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0em;
     line-height: 1em;
     text-transform: none;
     color: rgb(255,255,255);
