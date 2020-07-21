@@ -94,6 +94,7 @@ body {
 
 .titlewrapper .title {
   /* padding-left: 20%; */
+  width: 30%;
   display: table-cell;
   vertical-align: middle;
   padding-left: 4vw;
@@ -107,6 +108,22 @@ body {
     color: rgb(255,255,255);
     /* border-bottom: 0.75px solid rgb(255,255,255); */
 
+}
+
+.titlewrapper .link {
+  width: 30%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  padding-left: 10vw;
+  font-family: Georgia, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 0em;
+    line-height: 1em;
+    text-transform: none;
+    color: rgb(255,255,255);
 }
 
 .titlebanner {
